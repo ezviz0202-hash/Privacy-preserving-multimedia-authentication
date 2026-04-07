@@ -180,14 +180,14 @@ MIT License. Sample images are sourced from Wikimedia Commons (CC BY-SA).
 
 ## Experiment: Privacy Budget vs. Authentication Accuracy
 
-`experiments/privacy_tradeoff.py` runs the full pipeline across six DP budgets
+`privacy_tradeoff.py` runs the full pipeline across six DP budgets
 (ε = 0.1, 0.5, 1.0, 2.0, 5.0, ∞) and measures:
 
 - **TAR** (True Accept Rate): authentic images correctly accepted
 - **FAR** (False Accept Rate): attacked images wrongly accepted
 
 ```bash
-python experiments/privacy_tradeoff.py
+python privacy_tradeoff.py
 ```
 
 Outputs `results/privacy_tradeoff.png` and `results/tradeoff_data.csv`.
