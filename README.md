@@ -1,4 +1,4 @@
-# Privacy-Preserving Multimedia Authentication with Deep Learning
+# Privacy-preserving-multimedia-authentication
 
 > A lightweight framework combining privacy-constrained feature extraction, differential-privacy hash authentication, and content-adaptive thresholding — designed for robust forgery detection without sensitive attribute leakage.
 
