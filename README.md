@@ -194,9 +194,7 @@ Outputs `results/privacy_tradeoff.png` and `results/tradeoff_data.csv`.
 
 The left chart shows TAR/FAR per epsilon. The right chart shows the
 privacy-accuracy tradeoff curve — smaller ε = stronger privacy but lower TAR.
-The sweet spot in this demo is around **ε = 1.0**: TAR stays high while FAR
-remains low, consistent with the analytic Gaussian mechanism's theoretical
-guarantees.
+The experiment illustrates a clear privacy–accuracy tradeoff: smaller ε values provide stronger privacy guarantees but significantly reduce authentication performance, while larger ε values improve accuracy at the cost of weaker privacy protection.
 
 This experiment directly supports Innovation Point 2 (DP hash authentication)
 by providing empirical evidence of the privacy-accuracy tradeoff.
