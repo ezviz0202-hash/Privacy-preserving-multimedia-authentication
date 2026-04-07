@@ -1,6 +1,4 @@
-# PrivAuth-MM
-
-**Privacy-Preserving Multimedia Authentication via Deep Learning**
+# Privacy-Preserving Multimedia Authentication with Deep Learning
 
 > A lightweight framework combining privacy-constrained feature extraction, differential-privacy hash authentication, and content-adaptive thresholding — designed for robust forgery detection without sensitive attribute leakage.
 
